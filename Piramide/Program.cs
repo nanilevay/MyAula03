@@ -23,12 +23,32 @@ namespace Piramide
 
                 for (int j = 0; j < spaces; j++)
                 {
-                    Console.Write(" ");
+                    Console.Write("-");
                 }
 
                 for (int j = 0; j < asterisks; j++)
                 {
                     Console.Write("*");
+                }
+
+                for (int j = 0; j < spaces; j++)
+                {
+                    Console.Write("-");
+                }
+
+                for (int j = 0; j < spaces; j++)
+                {
+                    Console.Write("-");
+                }
+
+                for (int j = 0; j < asterisks; j++)
+                {
+                    Console.Write("*");
+                }
+
+                for (int j = 0; j < spaces; j++)
+                {
+                    Console.Write("-");
                 }
 
                 Console.WriteLine();
