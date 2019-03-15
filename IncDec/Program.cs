@@ -10,6 +10,14 @@ namespace IncDec
             int b = -8;
             int c;
 
+            c = ++b;
+
+            Console.WriteLine("{0} {1} {2}", a, b, c);
+
+            c = - a + b;
+
+            Console.WriteLine("{0} {1} {2}", a, b, c);
+
             c = ++b - a + b;
 
             Console.WriteLine("{0} {1} {2}", a, b, c);
